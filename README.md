@@ -30,9 +30,6 @@ The robot uses a Teensy 4.1 as the main controller, multiple VL53L1X ToF sensors
 
 A wall-following algorithm is used for maze exploration and mapping.
 
-### PID-Based Corridor Centering
-
-The robot calculates the difference between the left and right wall distances:
 
 ```text
 Error = distance_L - distance_R
