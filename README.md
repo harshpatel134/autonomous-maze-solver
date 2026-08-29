@@ -29,7 +29,3 @@ The robot uses a Teensy 4.1 as the main controller, multiple VL53L1X ToF sensors
 ### Wall Following
 
 A wall-following algorithm is used for maze exploration and mapping.
-
-
-```text
-Error = distance_L - distance_R
